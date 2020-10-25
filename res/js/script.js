@@ -135,32 +135,5 @@ $(function () {
             $('.browse-page').append(divProfile);
         }
     });
-
-
-/*
-
-    function loadProfileInfo() {
-        return $.get(
-            {
-                url: 'https://private-anon-3956ba9be8-wad20postit.apiary-mock.com/profiles',
-                success: function (response) {
-                    return response;
-                },
-                error: function () {
-                    alert('error')
-                }
-            }
-        );
-    }
-
-    loadProfileInfo().then(function(profileinfo) {
-        $('.profile-pic').attr('src', profileinfo.avatar)
-        $('.profile-author').html(profileinfo.firstname + " " + profileinfo.lastname)
-    });
-
- */
-
-
-
 });
 
