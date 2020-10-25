@@ -8,7 +8,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../wad20-tiim46-homework2" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jHwzpHTzgO2iCuausjuZrYQnSC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -19,7 +19,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wad20-tiim46-homework2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -33,6 +33,7 @@
       <updated>1603474589674</updated>
       <workItem from="1603474590751" duration="1297000" />
       <workItem from="1603476006647" duration="797000" />
+      <workItem from="1603623373005" duration="628000" />
     </task>
     <task id="LOCAL−00001" summary="Initial commit">
       <created>1603476564489</created>
