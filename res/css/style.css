@@ -1,3 +1,4 @@
+
 * {
     font-family: 'Roboto Slab', serif;
     outline: none;
@@ -234,5 +235,59 @@ nav div.avatar-container {
 .dropdown-content a:not(:first-child) {
     border-top: 1px solid lightgrey;
 }
+
+/*------------------BROWSE PAGE--------------------*/
+
+.browse-page {
+    width: 50%;
+    min-height: 100%;
+    margin: auto auto;
+    padding: 90px 15px 15px 15px;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile {
+    width: 40%;
+    margin: 15px auto;
+    border-radius: 5px;
+    border: solid black;
+    text-align: center;
+}
+
+.profile-author {
+    color: black;
+    padding: 10px;
+
+}
+
+.profile img {
+    border-radius: 50%;
+    width:100%;
+    height:100%;
+    max-width:150px;
+    max-height: 150px;
+    padding-top: 20px;
+}
+
+.follow-button {
+    background-position: 5px center;
+    background-color: purple;
+    width: 100px;
+    height: 40px;
+    line-height: 10px;
+    border: none;
+
+}
+
+.follow-button.pressed {
+    background-color: white;
+    color: purple;
+    border: solid purple;
+}
+
+
+
 
 

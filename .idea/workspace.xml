@@ -19,7 +19,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -34,6 +34,10 @@
       <workItem from="1603474590751" duration="1297000" />
       <workItem from="1603476006647" duration="797000" />
       <workItem from="1603623373005" duration="628000" />
+      <workItem from="1603626680103" duration="100000" />
+      <workItem from="1603626814349" duration="53000" />
+      <workItem from="1603626868445" duration="7000" />
+      <workItem from="1603626884432" duration="8000" />
     </task>
     <task id="LOCAL−00001" summary="Initial commit">
       <created>1603476564489</created>
@@ -55,9 +59,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1603476509503">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="493" y="171" key="FileChooserDialogImpl" timestamp="1603626891025">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="493" y="171" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1603626891025" />
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1536.864@0.0.1920.1040" timestamp="1603476509503" />
     <state x="814" y="418" key="Github.ShareDialog" timestamp="1603476523282">
       <screen x="0" y="0" width="1920" height="1040" />

@@ -105,6 +105,62 @@ $(function () {
         }
     })
 
+    //TASK 3
+
+    $.get("https://private-anon-3956ba9be8-wad20postit.apiary-mock.com/profiles", function (response) {
+        for (profile of response) {
+            let divProfile = $('<div class="profile">');
+
+            let avatar = $('<img>').attr('src', profile.avatar);
+            let spanProfileauthor = $('<span class="profile-author">');
+            let authorName = $('<p>').text(profile.firstname + " " + profile.lastname);
+
+            spanProfileauthor.append(authorName);
+            divProfile.append(avatar, spanProfileauthor);
+
+            let divProfileactions = $('<div class = "profile-actions">');
+            let button = $('<button class="follow-button">').attr({
+                type: "button",
+                name: "follow",
+            });
+            button.text('Follow');
+            divProfileactions.append(button);
+            divProfile.append(divProfileactions);
+
+            $(button).click(function () {
+                $(this).toggleClass('pressed');
+                $(this).text('Followed');
+            });
+
+            $('.browse-page').append(divProfile);
+        }
+    });
+
+
+/*
+
+    function loadProfileInfo() {
+        return $.get(
+            {
+                url: 'https://private-anon-3956ba9be8-wad20postit.apiary-mock.com/profiles',
+                success: function (response) {
+                    return response;
+                },
+                error: function () {
+                    alert('error')
+                }
+            }
+        );
+    }
+
+    loadProfileInfo().then(function(profileinfo) {
+        $('.profile-pic').attr('src', profileinfo.avatar)
+        $('.profile-author').html(profileinfo.firstname + " " + profileinfo.lastname)
+    });
+
+ */
+
 
 
 });
+
